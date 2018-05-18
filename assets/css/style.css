@@ -22,6 +22,12 @@ body {
     max-width: 1200px!important;
     width: 100%;
 }
+.titulo-geral {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F4FE5;
+    margin-top: 0;
+}
 
 .navbar-default {
     background: transparent;
@@ -203,25 +209,101 @@ header ul.nav>li.entrar>a:hover {
     color: #99ffff;
     background: #333399;
 }
-.owl-theme .owl-dots {
+.vitrine .owl-theme .owl-dots {
     text-align: center;
+    margin-top: -40px;
+    position: relative;
 }
-.owl-theme .owl-dots .owl-dot {
+.vitrine .owl-theme .owl-dots .owl-dot {
     display: inline-block;
 }
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791;
+.vitrine .owl-theme .owl-dots .owl-dot.active span,
+.vitrine .owl-theme .owl-dots .owl-dot:hover span {
+    background: #0BDBA3;
+    border: 1px solid #0BDBA3;
 }
-.owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
-    background: #D6D6D6;
+.vitrine .owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    margin: 5px 5px;
+    background: transparent;
+    border: 1px solid #fff;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
     border-radius: 30px;
+}
+
+.como-funciona {
+    background: url('../images/back-comofunciona.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+}
+.como-funciona .titulo-geral {
+    margin-bottom: 30px;
+}
+.como-funciona p {
+    font-size: 20px;
+    color: #6A6B6C;
+    text-align: center;
+}
+.como-funciona img {
+    margin: 0 auto 40px;
+}
+.como-funciona h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4F4FE5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.como-funciona span .fa {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+    display: table;
+    margin: 30px auto;
+}
+
+.comentarios {
+    background: url('../images/back-comentarios.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0;
+}
+.comentarios h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.comentarios img {
+    width: 100px!important;
+    float: left;
+    margin-right: 30px;
+}
+.comentarios h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 40px
+}
+.comentarios h4 span {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+}
+.comentarios h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.comentarios h5 img {
+    width: 19px!important;
+    margin-right: 5px;
 }
 
 /* --- MOBILE --- */
