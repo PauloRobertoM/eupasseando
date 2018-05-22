@@ -1,45 +1,149 @@
         <footer>
             <div class="container">
-                <div class="itens">
-                    <div class="item">
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Quem somos</a></li>
-                            <li><a href="">Atuação</a></li>
-                            <li><a href="">Notícias</a></li>
-                            <li><a href="">Contato</a></li>
-                        </ul>
-                    </div><!-- item -->
-                    <div class="borda"></div>
-                    <div class="item item-2">
-                        <h4>Última notícia</h4>
-                        <div class="item-noticia">
-                            <a href="">
-                                <img src="assets/images/noticias.png" />
-                                <h5>Chamada notícia</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpatt wisi enim ad minim veniam, quis nostrud exerci…</p>
-                            </a>
-                        </div><!-- item-noticia -->
-                    </div><!-- item -->
-                    <div class="borda"></div>
-                    <div class="item">
-                        <div class="redes-sociais">
-                            <a href="" class="hvr-float-shadow"><i class="fa fa-facebook-square" aria-hidden="true"></i> /lodettifabris</a>
-                            <a href="" class="hvr-float-shadow"><i class="fa fa-linkedin-square" aria-hidden="true"></i> /lodettifabris</a>
-                        </div><!-- redes-sociais -->
-                    </div><!-- item -->
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="assets/images/logo-footer.png" class="img-responsive" alt="" />
+                        <h4>FORMAS DE PAGAMENTO</h4>
+                        <img src="assets/images/cartoes.png" class="img-responsive" alt="" />
+                        <h4>INFORMAÇÕES DE SEGURANÇA</h4>
+                    </div><!-- md-4 -->
+                    <div class="col-md-8 col-sm-8">
+                        <div class="itens">
+                            <div class="item">
+                                <h4>MENU</h4>
+                                <ul>
+                                    <li><a href="">Quem somos</a></li>
+                                    <li><a href="">Como funciona</a></li>
+                                    <li><a href="">Regulamentos</a></li>
+                                    <li><a href="">Organização</a></li>
+                                </ul>
+                            </div><!-- item -->
+                            <div class="item">
+                                <h4>AJUDA</h4>
+                                <ul>
+                                    <li><a href="">Dúvidas</a></li>
+                                    <li><a href="">Suporte</a></li>
+                                    <li><a href="">Políticas de privacidade</a></li>
+                                    <li><a href="">Termos</a></li>
+                                </ul>
+                            </div><!-- item -->
+                            <div class="item">
+                                <h4>PACOTES</h4>
+                                <ul>
+                                    <li><a href="">Viagens</a></li>
+                                    <li><a href="">Passagens</a></li>
+                                    <li><a href="">Promoções</a></li>
+                                    <li><a href="">Leilão</a></li>
+                                </ul>
+                            </div><!-- item -->
+                        </div><!-- itens -->
+                    </div><!-- md-8 -->
                 </div><!-- row -->
-                <div class="rodape">
-                    <p>Endereço, 00 - Bairro, São Paulo - SP</p>
-                    <p><a href="agencianovi.com.br" target="_blank">© Agência Novi</a></p>
-                </div><!-- rodape -->
             </div><!-- container -->
         </footer>
+
+        <!-- Modal INFORMAÇÕES -->
+        <div class="modal fade" id="myModalInformacoes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-8">
+                                <h2 class="titulo-geral">Mais informações</h2>
+                                <h3>Nome do Pacote</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum felis, egestas et faucibus non, congue non sem. Morbi convallis pulvinar purus sed placerat. Fusce convallis dictum eros, sit amet iaculis est auctor non. Integer sit amet erat ex.</p>
+                            </div><!-- md-6 -->
+                        </div><!-- row -->
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                <h4>PASSAGENS AÉREAS</h4>
+                                <div class="item pull-left">
+                                    <h5><img src="assets/images/ida.png" alt="" /> VOO DE IDA</h5>
+                                    <p><span>Air France | 00000</span></p>
+
+                                    <h4>SAÍDA</h4>
+                                    <p>Sexta-feira, 01/01/2018.</p>
+                                    <h6>Horário:</h6>
+                                    <p>21h42</p>
+                                    <h6>Local:</h6>
+                                    <p><span>GRU</span> | São Paulo, Brasil.</p>
+
+                                    <h4>CHEGADA</h4>
+                                    <p>Sexta-feira, 01/01/2018.</p>
+                                    <h6>Horário:</h6>
+                                    <p>21h42</p>
+                                    <h6>Local:</h6>
+                                    <p><span>GRU</span> | São Paulo, Brasil.</p>
+                                </div><!-- item -->
+                                <div class="item pull-right">
+                                    <h5><img src="assets/images/volta.png" alt="" /> VOO DE VOLTA</h5>
+                                    <p><span>Air France | 00000</span></p>
+
+                                    <h4>SAÍDA</h4>
+                                    <p>Sexta-feira, 01/01/2018.</p>
+                                    <h6>Horário:</h6>
+                                    <p>21h42</p>
+                                    <h6>Local:</h6>
+                                    <p><span>GRU</span> | São Paulo, Brasil.</p>
+
+                                    <h4>CHEGADA</h4>
+                                    <p>Sexta-feira, 01/01/2018.</p>
+                                    <h6>Horário:</h6>
+                                    <p>21h42</p>
+                                    <h6>Local:</h6>
+                                    <p><span>GRU</span> | São Paulo, Brasil.</p>
+                                </div><!-- item -->
+                                <p class="importante"><span>Importante:</span> Para marcar assento nos voos, é necessário entrar em contato diretamente com a companhia aérea, seja por telefone ou no balcão da empresa no momento do check-in.</p>
+
+                                <h4>NOME DO HOTEL</h4>
+                                <a href="" target="_blank">www.sitedohotel.com.br</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum felis, egestas et faucibus non, congue non sem. Morbi convallis pulvinar purus sed placerat. Fusce convallis dictum eros, sit amet iaculis est auctor non. Integer sit amet erat ex.</p>
+
+                                <h5>Comodidades:</h5>
+                                <ul class="pull-left">
+                                    <li><img src="assets/images/check.png" alt="" /> Ar-condicionado</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Piscina</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Hidromassagem</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Sinuca</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Cama King-size</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Suíte</li>
+                                </ul>
+                                <ul class="pull-right">
+                                    <li><img src="assets/images/check.png" alt="" /> Ar-condicionado</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Piscina</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Hidromassagem</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Sinuca</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Cama King-size</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Suíte</li>
+                                </ul>
+                            </div><!-- md-6 -->
+                            <div class="col-lg-1"></div>
+                            <div class="col-md-6 col-sm-6">
+                                <h4>DOCUMENTOS NECESSÁRIOS</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum felis, egestas et faucibus non, congue non sem. Morbi convallis pulvinar purus sed placerat. Fusce convallis dictum eros, sit amet iaculis est auctor non. Integer sit amet erat ex.</p>
+                                <ul>
+                                    <li><img src="assets/images/check.png" alt="" /> Passaporte</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Carteira de identidade</li>
+                                    <li><img src="assets/images/check.png" alt="" /> CPF</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Carteira de vacinação</li>
+                                    <li><img src="assets/images/check.png" alt="" /> Visto</li>
+                                </ul>
+                                <h4>Outras informações</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ipsum felis, egestas et faucibus non, congue non sem. Morbi convallis pulvinar purus sed placerat. Fusce convallis dictum eros, sit amet iaculis est auctor non. Integer sit amet erat ex.</p>
+                                <img src="assets/images/paris.png" class="img-responsive img-paris" alt="" />
+                            </div><!-- md-6 -->
+                        </div><!-- row -->
+                    </div><!-- modal-body -->
+                </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+        </div><!-- modal -->
 
         <script type='text/javascript' src='assets/js/jquery.js'></script>
         <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
         <script src="https://use.fontawesome.com/6963733f46.js"></script>
         <script type='text/javascript' src='assets/js/owl.carousel.min.js'></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
         <script type='text/javascript' src='assets/js/script.js'></script>
     </body>
 </html>

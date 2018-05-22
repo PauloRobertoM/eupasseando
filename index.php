@@ -14,8 +14,10 @@
 						<p>PASSE PARA O LEILÃO</p>
 						<h1><span class="cifrao">R$</span>100<span class="centavos">,00</span></h1>
 					</div><!-- destino-passe -->
-					<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
-					<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
+					<div class="botoes">
+						<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
+						<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
+					</div><!-- botoes -->
 				</div><!-- conteudo -->
 				<img src="assets/images/vitrine.png" alt="">
 			</div><!-- item -->
@@ -31,8 +33,10 @@
 						<p>PASSE PARA O LEILÃO</p>
 						<h1><span class="cifrao">R$</span>100<span class="centavos">,00</span></h1>
 					</div><!-- destino-passe -->
-					<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
-					<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
+					<div class="botoes">
+						<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
+						<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
+					</div><!-- botoes -->
 				</div><!-- conteudo -->
 				<img src="assets/images/vitrine.png" alt="">
 			</div><!-- item -->
@@ -76,11 +80,41 @@
 						<img src="assets/images/pessoa-comentario.png" alt="">
 						<h4>John Smith<br /><span>Cliente Eu Passendo</span></h4>
 						<h5><img src="assets/images/pin.png" alt=""> 6 dias na França</h5>
-						<a class="botao" href="">Saiba mais</a>
+						<p>“Meat it which kind cattle. Tree called in won’t meat. I creature yielding gathered winged fruitful fruit together two gathering him void image was midst rule hath may isn’t waters.”</p>
+					</div><!-- conteudo -->
+				</div><!-- item -->
+				<div class="item">
+					<div class="conteudo">
+						<img src="assets/images/pessoa-comentario.png" alt="">
+						<h4>John Smith<br /><span>Cliente Eu Passendo</span></h4>
+						<h5><img src="assets/images/pin.png" alt=""> 6 dias na França</h5>
+						<p>“Meat it which kind cattle. Tree called in won’t meat. I creature yielding gathered winged fruitful fruit together two gathering him void image was midst rule hath may isn’t waters.”</p>
 					</div><!-- conteudo -->
 				</div><!-- item -->
 			</div><!-- #owl-comentarios -->
 		</div><!-- container -->
 	</section><!-- comentarios -->
+
+	<section class="instagram">
+		<div class="container">
+			<h2>Siga o nosso Instagram <i class="fa fa-instagram" aria-hidden="true"></i></h2>
+		</div><!-- container -->
+	</section><!-- instagram -->
+
+	<section class="novidades">
+		<div class="container">
+			<h2>Receba nossas novidades primeiro.</h2>
+			<form action="">
+				<input type="text" placeholder="SEU NOME" />
+				<input type="email" placeholder="SEU EMAIL" />
+				<button class="botao">ENVIAR</button>
+			</form>
+			<div class="redes-sociais">
+				<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div><!-- redes-sociais -->
+		</div><!-- container -->
+	</section><!-- novidades -->
 	
 <?php include 'components/footer.php'; ?>

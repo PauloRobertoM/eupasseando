@@ -13,6 +13,7 @@
     <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/hover-min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/owl.carousel.min.css' type='text/css' />
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <link rel='stylesheet' href='assets/css/style.css' type='text/css' />
 </head>
 
@@ -34,8 +35,8 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a href="">PASSE DO DIA</a></li>
-                            <li><a href="">VIAJE COM A GENTE</a></li>
-                            <li><a href="">DÚVIDAS FREQUENTES</a></li>
+                            <li><a href="viaje-com-a-gente.php">VIAJE COM A GENTE</a></li>
+                            <li><a href="duvidas-frequentes.php">DÚVIDAS FREQUENTES</a></li>
                             <li class="entrar"><a href=""><img src="assets/images/sign-in.png"/> ENTRAR</a></li>
                         </ul><!-- .nav -->
                     </div><!-- .navbar-collapse -->

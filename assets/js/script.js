@@ -1,7 +1,7 @@
 (function($, window) {
     $('#owl-vitrine').owlCarousel({
-        loop: true,
-        autoplay: true,
+        loop: false,
+        autoplay: false,
         margin: 0,
         nav: false,
         dots: true,
