@@ -9,10 +9,10 @@
 				<li class="active">Entrar no leilão</li>
 			</ol>
 			<div class="row">
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-7 col-sm-7">
 					<h2 class="titulo-geral">Eu passeando</h2>
 					<p>Breve explicação de como funciona o leilão. Breve explicação de como funciona o leilão. Breve explicação de como funciona o leilão. Breve explicação de como funciona o leilão. <span>Boa sorte e divirta-se. =D</span></p>
-				</div><!-- md-6 -->
+				</div><!-- md-7 -->
 			</div><!-- row -->
 			
 			<div class="row">

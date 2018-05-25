@@ -139,11 +139,48 @@
             </div><!-- modal-dialog -->
         </div><!-- modal -->
 
+        <!-- Modal ENTRAR NO LEILAO -->
+        <div class="modal modalConfirmacao fade" id="myModalEntrar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2>Você autoriza a compra do passe no valor de R$102,58 para o nosso leilão?</h2>
+                        <div class="botoes">
+                            <a href="" class="botao1">SIM, EU AUTORIZO.</a>
+                            <span>- ou -</span>
+                            <a href="" class="botao2">NÃO AUTORIZO.</a>
+                        </div><!-- botoes -->
+                    </div><!-- modal-body -->
+                </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+        </div><!-- modal -->
+
+        <!-- Modal PARABENS -->
+        <div class="modal modalConfirmacao fade" id="myModalParabens" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <img src="assets/images/ico-feliz.png" alt="">
+                        <h2>Prepare as malas! Você arrematou o pacote.</h2>
+                        <div class="botoes">
+                            <a href="" class="botao1">FINALIZE A COMPRA</a>
+                            <span>- ou -</span>
+                            <a href="" class="botao3">VOU DESISTIR</a>
+                        </div><!-- botoes -->
+                    </div><!-- modal-body -->
+                </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+        </div><!-- modal -->
+
         <script type='text/javascript' src='assets/js/jquery.js'></script>
         <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
         <script src="https://use.fontawesome.com/6963733f46.js"></script>
         <script type='text/javascript' src='assets/js/owl.carousel.min.js'></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+        <script type='text/javascript' src='assets/js/waypoint.js'></script>
+        <script type='text/javascript' src='assets/js/countTo.js'></script>
         <script type='text/javascript' src='assets/js/script.js'></script>
     </body>
 </html>
