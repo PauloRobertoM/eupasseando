@@ -174,6 +174,22 @@
             </div><!-- modal-dialog -->
         </div><!-- modal -->
 
+        <!-- Modal DESCONTO -->
+        <div class="modal modalConfirmacao fade" id="myModalDesconto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <img src="assets/images/ico-triste.png" alt="">
+                        <h2>Não foi dessa vez. Mas você pode comprar o pacote com um super desconto!</h2>
+                        <div class="botoes">
+                            <a href="" class="botao2">CONFERIR O DESCONTO</a>
+                        </div><!-- botoes -->
+                    </div><!-- modal-body -->
+                </div><!-- modal-content -->
+            </div><!-- modal-dialog -->
+        </div><!-- modal -->
+
         <script type='text/javascript' src='assets/js/jquery.js'></script>
         <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
         <script src="https://use.fontawesome.com/6963733f46.js"></script>

@@ -214,7 +214,7 @@ header ul.nav>li.entrar>a:hover {
     background: #fff;
     height: 3px;
 }
-.vitrine .botoes {
+.vitrine .botoes1 {
     width: 100%;
     display: inline-block;
 }
@@ -781,6 +781,7 @@ footer ul>li>a:hover {
     border-radius: 50px;
 }
 .botao2:hover {
+    color: #fff;
     background: #999999;
 }
 .botao3 {
@@ -1381,10 +1382,130 @@ aside .item .borda {
     font-size: 20px;
     color: #fff;
 }
-#myModalParabens img {
+#myModalParabens img,
+#myModalDesconto img {
     margin: 0 auto;
     display: block;
 }
+
+.seus-leiloes .item .img-bg-viaje {
+    width: 180px;
+    height: 180px;
+    border: 20px solid #4F4FE5;
+    border-radius: 50%;
+}
+.seus-leiloes .item-destaque .img-bg-viaje {
+    width: 180px;
+    height: 180px;
+    border: 20px solid #C9C9C9;
+    border-radius: 50%;
+}
+.seus-leiloes .item {
+    min-height: 230px;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #95989A;
+}
+.seus-leiloes .btn {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.usuario {
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.usuario .item {
+    float: left;
+    margin-right: 30px;
+}
+.usuario .conteudo {
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+.usuario h4 {
+    font-size: 25px;
+    color: #333333;
+}
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+.file-upload {
+    display: none!important;
+}
+.circle {
+    border-radius: 500px;
+    overflow: hidden;
+    width: 240px;
+    height: 240px;
+    background: #e0e0e0;
+    position: absolute;
+}
+.usuario img {
+    max-width: 100%;
+    height: auto;
+}
+.p-image {
+    position: relative;
+    z-index: 10000;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.upload-button {
+    font-size: 1.2em;
+}
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+
+.menu-usuario {
+    margin-top: 60px;
+}
+.menu-usuario .nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.menu-usuario .nav-tabs>li>a {
+    margin-right: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-usuario .nav-tabs>li.active>a,
+.menu-usuario .nav-tabs>li.active>a:focus,
+.menu-usuario .nav-tabs>li.active>a:hover,
+.menu-usuario .nav-tabs>li>a:hover {
+    font-weight: bold;
+    color: #6666cc;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+    border-bottom: 5px solid #6666ff;
+}
+.menu-usuario .tab-pane {
+    background: #f7f7f7;
+    padding: 80px 0 300px;
+}
+.menu-usuario .tab-pane .titulo-geral {
+    margin-bottom: 30px;
+}
+
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {
@@ -1640,6 +1761,25 @@ aside .item .borda {
     .leilao .item-atual {
         margin: 0 auto;
     }
+    .menu-usuario .nav-tabs {
+        display: block;
+    }
+    .menu-usuario .nav-tabs>li {
+        float: none;
+        text-align: center;
+    }
+    .usuario .item {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .usuario .conteudo {
+        width: 100%;
+        height: 150px;
+        justify-content: center;
+        float: left;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-header img {
@@ -1710,6 +1850,18 @@ aside .item .borda {
     }
     .login .esqueceu {
         font-size: 12px;
+    }
+    .seus-leiloes .btn {
+        font-size: 10px!important;
+    }
+    .seus-leiloes .conteudo {
+        padding: 30px 0;
+    }
+    .seus-leiloes .conteudo h2 {
+        font-size: 40px;
+    }
+    .seus-leiloes .conteudo {
+        margin-top: 10px;
     }
 }
 @media (min-width: 992px) and (max-width: 1010px) {

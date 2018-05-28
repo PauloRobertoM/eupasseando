@@ -14,10 +14,10 @@
 						<p>PASSE PARA O LEILÃO</p>
 						<h1><span class="cifrao">R$</span>100<span class="centavos">,00</span></h1>
 					</div><!-- destino-passe -->
-					<div class="botoes">
+					<div class="botoes1">
 						<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
 						<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
-					</div><!-- botoes -->
+					</div><!-- botoes1 -->
 				</div><!-- conteudo -->
 				<img src="assets/images/vitrine.png" alt="">
 			</div><!-- item -->
@@ -33,10 +33,10 @@
 						<p>PASSE PARA O LEILÃO</p>
 						<h1><span class="cifrao">R$</span>100<span class="centavos">,00</span></h1>
 					</div><!-- destino-passe -->
-					<div class="botoes">
+					<div class="botoes1">
 						<a href="" class="informacoes hvr-underline-from-center"><span>+</span>MAIS INFORMAÇÕES</a>
 						<a href="" class="botao"><img src="assets/images/aviao.png" alt=""> PARTICIPE AGORA!</a>
-					</div><!-- botoes -->
+					</div><!-- botoes1 -->
 				</div><!-- conteudo -->
 				<img src="assets/images/vitrine.png" alt="">
 			</div><!-- item -->

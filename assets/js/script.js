@@ -45,7 +45,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-    let countDown = new Date('May 31, 2018 16:00:00').getTime(),
+    let countDown = new Date('May 31, 2019 16:00:00').getTime(),
     x = setInterval(function() {
 
         let now = new Date().getTime(),
@@ -61,5 +61,23 @@
     },{
         triggerOnce: true,
         offset: "bottom-in-view"
+    });
+
+    $(document).ready(function() {
+        var readURL = function(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.profile-pic').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $(".file-upload").on('change', function(){
+            readURL(this);
+        });
+        $(".upload-button").on('click', function() {
+            $(".file-upload").click();
+        });
     });
 })(jQuery, window);
