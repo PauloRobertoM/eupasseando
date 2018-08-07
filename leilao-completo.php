@@ -60,6 +60,19 @@
 				</div><!-- item-atual -->
 			</div><!-- dados -->
 		</div><!-- container -->
+		<div class="atualizacao">
+			<div class="container">
+				<div class="content">
+					<h2 class="titulo-geral">Atualizações</h2>
+					<ul>
+						<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Você está concorrendo</li>
+						<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Sua aposta foi validada</li>
+						<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> O lance atual é de R$ xxx</li>
+						<li><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Usuário 12 apostou R$ xxx</li>
+					</ul>
+				</div>
+			</div><!-- container -->
+		</div><!-- atualizacao -->
 		<img src="assets/images/back-vaije.png" alt="" class="img-responsive">
 	</section><!-- interna -->
 
