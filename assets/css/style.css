@@ -1507,6 +1507,256 @@ aside .item .borda {
 }
 
 
+
+
+.tela-de-espera {
+    width: 100%;
+    height: 960px;
+    background: url('../images/back-espera.jpg') no-repeat;
+    background-position: center;
+}
+.tela-de-espera .item {
+    max-width: 670px;
+    width: 100%;
+    height: 800px;
+    background: url('../images/espera-form.png') no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+}
+.tela-de-espera .conteudo {
+    padding: 30px 0;
+    width: 55%;
+    margin: 0 auto;
+    position: relative;
+    left: -40px;
+}
+.tela-de-espera h1 {
+    font-size: 54px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.tela-de-espera h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 0;
+}
+.tela-de-espera p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+}
+.tela-de-espera span {
+    color: #84ed96!important;
+}
+.tela-de-espera form {
+    margin-top: 20px;
+}
+.tela-de-espera input {
+    font-size: 15px;
+    color: #4342b6;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.tela-de-espera ::-webkit-input-placeholder {
+   color: #4342b6;
+   font-size: 15px;
+}
+.tela-de-espera :-moz-placeholder {
+   color: #4342b6;
+   font-size: 15px;
+}
+.tela-de-espera ::-moz-placeholder {
+   color: #4342b6;
+   font-size: 15px;
+}
+.tela-de-espera :-ms-input-placeholder {
+   color: #4342b6;
+   font-size: 15px;
+}
+.tela-de-espera button {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #3c3b87;
+    border: none;
+    border-bottom: 3px solid #9896f6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    transition: 1s;
+    margin-top: 20px;
+}
+.tela-de-espera button:hover {
+    background: #9896f6;
+    border-bottom: 3px solid #9896f6;
+}
+.tela-de-espera .redes-sociais {
+    margin-top: 145px;
+}
+.tela-de-espera .redes-sociais a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    background: #4935b0;
+    border-radius: 50px;
+    margin: 0 5px;
+    transition: 1s;
+}
+.tela-de-espera .redes-sociais a:hover {
+    background: #fff;
+}
+.tela-de-espera .fa {
+    font-size: 16px;
+    color: #6d6bf0;
+}
+
+@media (max-width: 767px) {
+    .tela-de-espera h1 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .tela-de-espera p {
+        font-size: 12px;
+    }
+    .tela-de-espera .item {
+        margin-top: 30px;
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+    }
+    .tela-de-espera .conteudo {
+        padding: 15px 0;
+        width: 78%;
+        left: -21px;
+    }
+    .tela-de-espera h4 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .tela-de-espera form {
+        margin-top: 0;
+    }
+    .tela-de-espera input {
+        font-size: 12px;
+        height: 40px;
+    }
+    .tela-de-espera ::-webkit-input-placeholder {
+       font-size: 12px;
+    }
+    .tela-de-espera :-moz-placeholder {
+       font-size: 12px;
+    }
+    .tela-de-espera ::-moz-placeholder {
+       font-size: 12px;
+    }
+    .tela-de-espera :-ms-input-placeholder {
+       font-size: 12px;
+    }
+    .tela-de-espera button {
+        font-size: 12px;
+        padding: 7px 30px;
+        margin-top: 10px;
+    }
+    .tela-de-espera .redes-sociais {
+        margin-top: 70px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .tela-de-espera h1 {
+        font-size: 34px;
+    }
+    .tela-de-espera p {
+        font-size: 14px;
+    }
+    .tela-de-espera .conteudo {
+        padding: 15px 0;
+        width: 60%;
+        left: -25px;
+    }
+    .tela-de-espera h4 {
+        font-size: 11px;
+    }
+    .tela-de-espera form {
+        margin-top: 0px;
+    }
+    .tela-de-espera input {
+        font-size: 10px;
+        height: 30px;
+    }
+    .tela-de-espera ::-webkit-input-placeholder {
+       font-size: 10px;
+    }
+    .tela-de-espera :-moz-placeholder {
+       font-size: 10px;
+    }
+    .tela-de-espera ::-moz-placeholder {
+       font-size: 10px;
+    }
+    .tela-de-espera :-ms-input-placeholder {
+       font-size: 10px;
+    }
+    .tela-de-espera button {
+        font-size: 12px;
+        padding: 6px 30px;
+        margin-top: 0px;
+    }
+    .tela-de-espera .redes-sociais {
+        margin-top: 85px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1100px) {
+    .tela-de-espera h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+    .tela-de-espera .conteudo {
+        padding: 20px 0;
+        width: 60%;
+        left: -33px;
+    }
+    .tela-de-espera h4 {
+        font-size: 14px;
+    }
+    .tela-de-espera form {
+        margin-top: 10px;
+    }
+    .tela-de-espera input {
+        height: 40px;
+    }
+    .tela-de-espera .redes-sociais {
+        margin-top: 130px;
+    }
+}
+@media (min-width: 1101px) and (max-width: 1199px) {
+    .tela-de-espera h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+    .tela-de-espera .conteudo {
+        padding: 20px 0;
+        width: 60%;
+        left: -33px;
+    }
+    .tela-de-espera h4 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     #bs-example-navbar-collapse-1 {
