@@ -20,10 +20,14 @@
 					</div><!-- item -->
 				</div><!-- md-9 -->
 				<div class="col-md-3 col-sm-3">
-					<div class="conteudo">
-						<h2><span>R$</span> 0,00</h2>
-					</div><!-- conteudo -->
-					<a href="#" data-toggle="modal" data-target="#myModalParabens" class="btn">DÊ SEU LANCE</a>
+					<form action="" class="form-valor-lance">
+						<div class="conteudo">
+							<!-- <h2><span>R$</span> 0,00</h2> -->
+							<h2><span>R$</span></h2>
+							<input type="text" class="form-control" placeholder="0,00" />
+						</div><!-- conteudo -->
+						<button data-toggle="modal" data-target="#myModalParabens" class="btn">DÊ SEU LANCE</button>
+					</form>
 				</div><!-- md-3 -->
 			</div><!-- row -->
 

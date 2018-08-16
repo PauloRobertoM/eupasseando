@@ -1647,6 +1647,48 @@ aside .item .borda {
     color: #6d6bf0;
 }
 
+
+
+
+
+
+.form-valor-lance .conteudo {
+    display: flex;
+    align-items: center;
+}
+.form-valor-lance .conteudo h2 {
+    margin-right: 10px;
+}
+.form-valor-lance input {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    height: 45px;
+}
+.form-valor-lance ::-webkit-input-placeholder {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+}
+.form-valor-lance :-moz-placeholder {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+}
+.form-valor-lance ::-moz-placeholder {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+}
+.form-valor-lance :-ms-input-placeholder {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F4FE5;
+}
+
 @media (max-width: 767px) {
     .tela-de-espera h1 {
         font-size: 28px;
